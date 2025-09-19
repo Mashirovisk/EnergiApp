@@ -8,26 +8,25 @@ Muitas residências não possuem controle eficiente do consumo de energia, geran
 
 ## 3. Tipo de solução
 Aplicação web full-stack:
-- Front-end: interface para cadastro, registro de consumo, gráficos e sugestões.
-- Back-end: API para gerenciar usuários, consumo e gerar alertas/sugestões.
-- Banco de dados: armazenamento seguro de usuários, consumo e histórico.
+- **Front-end:** interface para cadastro, registro de consumo, gráficos e sugestões.
+- **Back-end:** API para gerenciar usuários, consumo e gerar alertas/sugestões.
+- **Banco de dados:** armazenamento de usuários e histórico de consumo.
 
 ## 4. Requisitos da aplicação
 
-### Requisitos Funcionais (RF)
-- RF1: Cadastro de usuário (nome, e-mail, senha)
-- RF2: Login de usuário
-- RF3: Alteração de dados e senha
-- RF4: Registro diário de consumo de energia (kWh)
-- RF5: Visualização de gráficos de consumo
-- RF6: Alertas de consumo alto
-- RF7: Sugestões de economia de energia
-- RF8: Visualização de histórico completo
+### 4.1 Requisitos Funcionais (RF)
+- **RF1 – Cadastro de usuário:** Permitir que o usuário se cadastre informando **nome e senha**. Nome deve ser único; mensagem de erro se já existir.
+- **RF2 – Login de usuário:** Permitir que o usuário faça login usando **nome e senha**. Login bem-sucedido leva à dashboard; login incorreto mostra mensagem de erro.
+- **RF3 – Registro de consumo:** Permitir que o usuário registre **consumo diário de energia (kWh)**.
+- **RF4 – Visualização de gráfico diário:** Exibir **gráfico de consumo diário** atualizado automaticamente.
+- **RF5 – Visualização de gráfico semanal:** Exibir **gráfico de consumo semanal** mostrando soma ou média diária.
+- **RF6 – Visualização de gráfico mensal:** Exibir **gráfico de consumo mensal** mostrando consumo agregado por mês.
+- **RF7 – Alertas de consumo alto:** Gerar alertas quando o consumo diário ou semanal estiver acima da média.
+- **RF8 – Histórico de consumo:** Permitir que o usuário visualize **todos os registros de consumo** passados, ordenados por data.
+- **RF9 – Sugestões de economia:** Fornecer **dicas de economia de energia** com base no consumo registrado.
 
-### Requisitos Não Funcionais (RNF)
-- RNF1: Responsividade em desktop, tablet e smartphone
-- RNF2: Tempo de resposta < 2s
-- RNF3: Senhas criptografadas
-- RNF4: Integridade e consistência de dados
-- RNF5: Suporte a múltiplos usuários simultâneos
-- RNF6: Interface intuitiva e de fácil navegação
+### 4.2 Requisitos Não Funcionais (RNF)
+- **RNF1 – Responsividade:** Aplicação deve funcionar em **desktop, tablet e smartphone**.
+- **RNF2 – Desempenho:** Tempo de resposta da aplicação não deve exceder **2 segundos**.
+- **RNF3 – Usabilidade:** Interface deve ser **intuitiva e de fácil navegação**.
+- **RNF4 – Confiabilidade:** Suportar **múltiplos usuários simultâneos** sem falhas.
