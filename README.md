@@ -1,33 +1,33 @@
-# controle-desperdicio-alimentar
-
-# TP1 - Definição do Problema e Planejamento Inicial
+# Projeto: EcoWatt – Monitoramento de Consumo de Energia
 
 ## 1. Objetivo
-Criar um sistema web para controlar o desperdício alimentar, permitindo que usuários registrem alimentos e visualizem relatórios sobre seu consumo.
+Desenvolver uma aplicação web para monitoramento do consumo de energia elétrica residencial, fornecendo gráficos de consumo, alertas e sugestões de economia, promovendo uso consciente da energia (ODS 7).
 
-## 2. Problema
-O desperdício de alimentos gera prejuízos econômicos, sociais e ambientais. Muitas pessoas não têm ferramentas simples para organizar os alimentos que possuem e evitar desperdícios.
+## 2. Problema a ser resolvido
+Muitas residências não possuem controle eficiente do consumo de energia, gerando desperdício, custos elevados e impacto ambiental. O sistema permitirá registrar, monitorar e analisar o consumo de energia, com alertas e sugestões de economia.
 
 ## 3. Tipo de solução
-Sistema web responsivo, com:
+Aplicação web full-stack:
+- Front-end: interface para cadastro, registro de consumo, gráficos e sugestões.
+- Back-end: API para gerenciar usuários, consumo e gerar alertas/sugestões.
+- Banco de dados: armazenamento seguro de usuários, consumo e histórico.
 
-- Registro de alimentos  
-- Visualização de relatórios e gráficos de consumo
+## 4. Requisitos da aplicação
 
-## 4. Requisitos
+### Requisitos Funcionais (RF)
+- RF1: Cadastro de usuário (nome, e-mail, senha)
+- RF2: Login de usuário
+- RF3: Alteração de dados e senha
+- RF4: Registro diário de consumo de energia (kWh)
+- RF5: Visualização de gráficos de consumo
+- RF6: Alertas de consumo alto
+- RF7: Sugestões de economia de energia
+- RF8: Visualização de histórico completo
 
-### 4.1 Requisitos Funcionais
-- Cadastro de usuários  
-- Registro de alimentos com quantidade e validade  
-- Visualização de relatórios
-
-### 4.2 Requisitos Não Funcionais
-- Sistema responsivo  
-- Interface simples e intuitiva  
-- Performance rápida  
-- Código organizado e seguro  
-
-## 5. Caso de Uso
-**Ator:** Usuário
-- Cadastrar alimentos  
-- Visualizar relatórios
+### Requisitos Não Funcionais (RNF)
+- RNF1: Responsividade em desktop, tablet e smartphone
+- RNF2: Tempo de resposta < 2s
+- RNF3: Senhas criptografadas
+- RNF4: Integridade e consistência de dados
+- RNF5: Suporte a múltiplos usuários simultâneos
+- RNF6: Interface intuitiva e de fácil navegação
