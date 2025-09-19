@@ -15,18 +15,16 @@ Aplicação web full-stack:
 ## 4. Requisitos da aplicação
 
 ### 4.1 Requisitos Funcionais (RF)
-- **RF1 – Cadastro de usuário:** Permitir que o usuário se cadastre informando **nome e senha**. Nome deve ser único; mensagem de erro se já existir.
-- **RF2 – Login de usuário:** Permitir que o usuário faça login usando **nome e senha**. Login bem-sucedido leva à dashboard; login incorreto mostra mensagem de erro.
-- **RF3 – Registro de consumo:** Permitir que o usuário registre **consumo diário de energia (kWh)**.
-- **RF4 – Visualização de gráfico diário:** Exibir **gráfico de consumo diário** atualizado automaticamente.
-- **RF5 – Visualização de gráfico semanal:** Exibir **gráfico de consumo semanal** mostrando soma ou média diária.
-- **RF6 – Visualização de gráfico mensal:** Exibir **gráfico de consumo mensal** mostrando consumo agregado por mês.
-- **RF7 – Alertas de consumo alto:** Gerar alertas quando o consumo diário ou semanal estiver acima da média.
-- **RF8 – Histórico de consumo:** Permitir que o usuário visualize **todos os registros de consumo** passados, ordenados por data.
-- **RF9 – Sugestões de economia:** Fornecer **dicas de economia de energia** com base no consumo registrado.
 
-### 4.2 Requisitos Não Funcionais (RNF)
-- **RNF1 – Responsividade:** Aplicação deve funcionar em **desktop, tablet e smartphone**.
-- **RNF2 – Desempenho:** Tempo de resposta da aplicação não deve exceder **2 segundos**.
-- **RNF3 – Usabilidade:** Interface deve ser **intuitiva e de fácil navegação**.
-- **RNF4 – Confiabilidade:** Suportar **múltiplos usuários simultâneos** sem falhas.
+- **RF1 – Cadastro de usuário:** Permitir que o usuário se cadastre informando **nome e senha**. Nome deve ser único; mensagem de erro se já existir.
+
+- **RF2 – Login de usuário:** Permitir que o usuário faça login usando **nome e senha**. Login bem-sucedido leva à dashboard; login incorreto mostra mensagem de erro.
+
+- **RF3 – Registro de uso de energia:** Usuário deve poder registrar seu **uso diário de energia (kWh)** através de um formulário na dashboard, informando a **data** e a **quantidade de kWh**. Cada registro deve aparecer imediatamente no histórico e ser usado para atualizar os gráficos.
+
+- **RF4 – Visualização de gráficos de consumo:** Mostrar **gráficos de consumo diário, semanal e mensal** na dashboard. O gráfico diário mostra o consumo do dia; o semanal mostra a soma/média de cada dia da semana; o mensal mostra o consumo total ou médio por mês. Gráficos atualizam quando novos registros são adicionados.
+
+- **RF5 – Alertas de consumo alto:** Exibir alertas visuais na dashboard quando o consumo diário ou semanal ultrapassar a média do usuário. O alerta deve indicar que o consumo está acima do normal e sugerir atenção.
+
+- **RF6 – Histórico de consumo:** Mostrar em uma tabela/lista todos os registros de consumo do usuário, organizados por data. Permitir **filtragem por período** (dia, semana ou mês) para facilitar a visualização.
+
