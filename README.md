@@ -53,6 +53,8 @@ Usuário vê dicas relevantes e fáceis de entender, atualizadas com base nos re
 - **RNF4 – Persistência de dados:** Todos os registros de consumo e histórico de alertas devem ser armazenados no banco de dados e permanecer disponíveis mesmo após logout ou falhas do sistema.
 
 - **RNF5 – Atualização em tempo real:** Gráficos, alertas e sugestões de economia devem ser **atualizados automaticamente** sempre que novos registros de consumo forem adicionados.
+- <img width="894" height="752" alt="image" src="https://github.com/user-attachments/assets/dfce467b-140d-47aa-bbfc-c69cd2d7f1b3" />
+
 
 - **RNF6 – Segurança básica:** Apesar de não haver criptografia de senhas, o sistema deve **proteger os dados do usuário**, evitando acesso não autorizado a registros de outros usuários.
 
