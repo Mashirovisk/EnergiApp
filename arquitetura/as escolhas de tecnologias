@@ -1,0 +1,23 @@
+1. Frontend – HTML + CSS + JavaScript + Chart.js
+
+Por que: Fácil de aprender e usar para iniciantes. Permite criar formulários, dashboards e gráficos sem frameworks complexos.
+
+Benefício: Usuário consegue registrar consumo e visualizar gráficos claros e interativos.
+
+2. Backend – Node.js + Express
+
+Por que: Simples de configurar, usa a mesma linguagem do frontend (JavaScript) e tem muita documentação.
+
+Benefício: Permite receber dados do frontend, armazenar no banco e gerar alertas/sugestões facilmente.
+
+3. Banco de Dados – SQLite
+
+Por que: Extremamente fácil de usar, não precisa de servidor externo, banco armazenado em arquivo local.
+
+Benefício: Mantém histórico de consumo, alertas e sugestões de forma segura e persistente.
+
+4. Gráficos – Chart.js
+
+Por que: Simples de integrar com JavaScript, não requer instalação complicada.
+
+Benefício: Permite criar gráficos diários, semanais e mensais rapidamente, ajudando o usuário a visualizar o consumo.
